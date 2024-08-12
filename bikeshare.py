@@ -106,8 +106,8 @@ def time_stats(df,month,day):
 
     # display the most common day of week
     if day =='None':
-        pop_day= df['day_of_week'].mode()[0]
-        print(f"The most popular day is: {pop_day}\n")
+        popular_day= df['day_of_week'].mode()[0]
+        print(f"The most popular day is: {popular_day}\n")
 
 
     # display the most common start hour
