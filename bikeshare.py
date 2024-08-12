@@ -197,23 +197,28 @@ def user_stats(df,city):
 
 def display_data(df):
 
+    # Start an infinite loop to get user input
     while True:
         response=['yes','no']
+    # Ask the user if they want to view individual trip data
         choice= input("Would you like to view individual trip data (5 entries)? Type 'yes' or 'no'\n").lower()
         if choice in response:
             if choice=='yes':
                 start=0
                 end=5
+    # Select and display the first 5 entries of the DataFrame
                 data = df.iloc[start:end,:9]
                 print(data)
             break     
         else:
             print("Please enter a valid response")
+    # If the user chose to view data, ask if they want to see more
     if  choice=='yes':       
             while True:
                 choice_2= input("Would you like to view more trip data? Type 'yes' or 'no'\n").lower()
                 if choice_2 in response:
                     if choice_2=='yes':
+    # Update the start and end indices to get the next 5 entries
                         start+=5
                         end+=5
                         data = df.iloc[start:end,:9]
