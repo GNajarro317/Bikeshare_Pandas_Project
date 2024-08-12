@@ -17,5 +17,4 @@ new_york_city.csv
 washington.csv 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://medium.com/@teppan_noodle/exploratory-data-analysis-project-cyclistic-bike-share-analysis-case-study-dedb69807f74
