@@ -16,5 +16,12 @@ chicago.csv
 new_york_city.csv
 washington.csv 
 
+### Requirements
+Python (version 3.12.1)
+Libraries used in the program:
+time
+pandas (version 2.2.2)
+numpy (version 1.19.5)
+
 ### Credits
 https://medium.com/@teppan_noodle/exploratory-data-analysis-project-cyclistic-bike-share-analysis-case-study-dedb69807f74
